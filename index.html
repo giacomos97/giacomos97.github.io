@@ -64,11 +64,13 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#activities" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ACTIVITIES</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#activities" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ACTIVITIES</a>
   </div>
 </div>
 
@@ -81,13 +83,29 @@ body, html {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
+  <h3 class="w3-center">ABOUT</h3>
   <p>Work in progress ...</p>
   <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Giacomo Spisni</b></p><br>
-      <img src="#" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Profile picture" width="500" height="333">
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Work in progress ...</p>
     </div>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Giacomo <span class="w3-hide-small">Spisni</span>
+  </div>
+</div>
+
+<!-- Container (Activities Section) -->
+<div class="w3-content w3-container w3-padding-64" id="activities">
+  <h3 class="w3-center">ACTIVITIES</h3>
+  <p>Work in progress ...</p>
+  <div class="w3-row">
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
